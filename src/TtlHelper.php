@@ -50,8 +50,8 @@ final class TtlHelper
      */
     private static function dateIntervalToSeconds(DateInterval $ttl)
     {
-        $reference = (new \DateTimeImmutable())->setTimestamp(0);
-        
+        $reference = (new DateTimeImmutable())->setTimestamp(0);
+
         return $reference->add($ttl)->getTimestamp();
     }
 }
