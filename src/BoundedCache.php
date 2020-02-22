@@ -87,7 +87,7 @@ final class BoundedCache implements CacheInterface
      */
     public function set($key, $value, $ttl = null)
     {
-        return $this->cache->put($key, $value, $this->computeTtl($ttl));
+        return $this->cache->set($key, $value, $this->computeTtl($ttl));
     }
 
     /**
@@ -141,7 +141,7 @@ final class BoundedCache implements CacheInterface
      */
     public function setMultiple($values, $ttl = null)
     {
-        return $this->setMultiple($values, $this->computeTtl($ttl));
+        return $this->cache->setMultiple($values, $this->computeTtl($ttl));
     }
 
     /**
