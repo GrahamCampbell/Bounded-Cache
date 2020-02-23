@@ -7,7 +7,7 @@ Bounded Cache was created by, and is maintained by [Graham Campbell](https://git
 
 <p align="center">
 <a href="https://styleci.io/repos/242360409"><img src="https://styleci.io/repos/242360409/shield" alt="StyleCI Status"></img></a>
-<a href="https://travis-ci.org/GrahamCampbell/Bounded-Cache"><img src="https://img.shields.io/travis/GrahamCampbell/Bounded-Cache/master.svg?style=flat-square" alt="Build Status"></img></a>
+<a href="https://github.com/GrahamCampbell/Bounded-Cache/actions?query=workflow%3ATests"><img src="https://img.shields.io/github/workflow/status/GrahamCampbell/Bounded-Cache/Tests?style=flat-square" alt="Build Status"></img></a>
 <a href="https://scrutinizer-ci.com/g/GrahamCampbell/Bounded-Cache/code-structure"><img src="https://img.shields.io/scrutinizer/coverage/g/GrahamCampbell/Bounded-Cache.svg?style=flat-square" alt="Coverage Status"></img></a>
 <a href="https://scrutinizer-ci.com/g/GrahamCampbell/Bounded-Cache"><img src="https://img.shields.io/scrutinizer/g/GrahamCampbell/Bounded-Cache.svg?style=flat-square" alt="Quality Score"></img></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square" alt="Software License"></img></a>
