@@ -32,4 +32,30 @@ class BoundedCacheTest extends TestCase
     {
         $this->assertInstanceOf(CacheInterface::class, new BoundedCache(Mockery::mock(CacheInterface::class), 5, 10));
     }
+
+    public function testGet()
+    {
+        $m = Mockery::mock(CacheInterface::class);
+        $m->shouldReceive('get')
+            ->once()
+            ->with('123', null)
+            ->andReturn('qwertyuiop');
+
+        $c = new BoundedCache($m, 0, 123);
+
+        $this->assertSame('qwertyuiop', $c->get('123'));
+    }
+
+    public function testSet()
+    {
+        $m = Mockery::mock(CacheInterface::class);
+        $m->shouldReceive('set')
+            ->once()
+            ->with('123', 'abc', 4)
+            ->andReturn('qwertyuiop');
+
+        $c = new BoundedCache($m, 4, 123);
+
+        $this->assertSame('qwertyuiop', $c->set('123', 'abc'));
+    }
 }
