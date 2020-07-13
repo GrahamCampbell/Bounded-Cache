@@ -6,18 +6,17 @@ Bounded Cache was created by, and is maintained by [Graham Campbell](https://git
 ![Banner](https://user-images.githubusercontent.com/2829600/75094788-34eac080-5586-11ea-8728-119552c4e295.png)
 
 <p align="center">
+<a href="https://github.com/GrahamCampbell/Bounded-Cache/actions?query=workflow%3ATests"><img src="https://img.shields.io/github/workflow/status/GrahamCampbell/Bounded-Cache/Tests?label=Tests&style=flat-square" alt="Build Status"></img></a>
 <a href="https://github.styleci.io/repos/242360409"><img src="https://github.styleci.io/repos/242360409/shield" alt="StyleCI Status"></img></a>
-<a href="https://github.com/GrahamCampbell/Bounded-Cache/actions?query=workflow%3ATests"><img src="https://img.shields.io/github/workflow/status/GrahamCampbell/Bounded-Cache/Tests?style=flat-square" alt="Build Status"></img></a>
-<a href="https://scrutinizer-ci.com/g/GrahamCampbell/Bounded-Cache/code-structure"><img src="https://img.shields.io/scrutinizer/coverage/g/GrahamCampbell/Bounded-Cache?style=flat-square" alt="Coverage Status"></img></a>
-<a href="https://scrutinizer-ci.com/g/GrahamCampbell/Bounded-Cache"><img src="https://img.shields.io/scrutinizer/g/GrahamCampbell/Bounded-Cache?style=flat-square" alt="Quality Score"></img></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-brightgreen?style=flat-square" alt="Software License"></img></a>
+<a href="https://packagist.org/packages/graham-campbell/bounded-cache"><img src="https://img.shields.io/packagist/dt/graham-campbell/bounded-cache?style=flat-square" alt="Packagist Downloads"></img></a>
 <a href="https://github.com/GrahamCampbell/Bounded-Cache/releases"><img src="https://img.shields.io/github/release/GrahamCampbell/Bounded-Cache?style=flat-square" alt="Latest Version"></img></a>
 </p>
 
 
 ## Installation
 
-Bounded Cache requires [PHP](https://php.net) 7.2-7.4.
+Bounded Cache requires [PHP](https://php.net) 7.2-8.0.
 
 To get the latest version, simply require the project using [Composer](https://getcomposer.org):
 
