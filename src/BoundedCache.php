@@ -20,7 +20,7 @@ use Psr\SimpleCache\CacheInterface;
  *
  * @author Graham Campbell <graham@alt-three.com>
  */
-final class BoundedCache implements CacheInterface
+final class BoundedCache implements BoundedCacheInterface
 {
     /**
      * The underlying cache instance.
@@ -30,14 +30,14 @@ final class BoundedCache implements CacheInterface
     private $cache;
 
     /**
-     * The minimum cache time.
+     * The minimum cache lifetime.
      *
      * @var int
      */
     private $min;
 
     /**
-     * The maximum cache time.
+     * The maximum cache lifetime.
      *
      * @var int
      */
@@ -57,6 +57,26 @@ final class BoundedCache implements CacheInterface
         $this->cache = $cache;
         $this->min = $min;
         $this->max = $max;
+    }
+
+    /**
+     * Get the minimum cache lifetime.
+     *
+     * @return int
+     */
+    public function getMinimumLifetime()
+    {
+        return $this->min;
+    }
+
+    /**
+     * Get the maximum cache lfetime.
+     *
+     * @return int
+     */
+    public function getMaximumLifetime()
+    {
+        return $this->max;
     }
 
     /**
