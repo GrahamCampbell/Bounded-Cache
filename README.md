@@ -20,7 +20,7 @@ Bounded Cache was created by, and is maintained by [Graham Campbell](https://git
 
 ## Installation
 
-Bounded Cache requires [PHP](https://php.net) 7.2-8.0.
+Bounded Cache requires [PHP](https://php.net) 7.2-8.1.
 
 To get the latest version, simply require the project using [Composer](https://getcomposer.org):
 
@@ -31,7 +31,7 @@ $ composer require "graham-campbell/bounded-cache:^1.1"
 
 ## Security
 
-If you discover a security vulnerability within this package, please send an email to Graham Campbell at graham@alt-three.com. All security vulnerabilities will be promptly addressed. You may view our full security policy [here](https://github.com/GrahamCampbell/Bounded-Cache/security/policy).
+If you discover a security vulnerability within this package, please send an email to Graham Campbell at hello@gjcampbell.co.uk. All security vulnerabilities will be promptly addressed. You may view our full security policy [here](https://github.com/GrahamCampbell/Bounded-Cache/security/policy).
 
 
 ## License
