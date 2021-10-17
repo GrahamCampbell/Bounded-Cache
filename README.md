@@ -27,7 +27,7 @@ $ composer require "graham-campbell/bounded-cache:^1.1"
 
 ## Security
 
-If you discover a security vulnerability within this package, please send an email to Graham Campbell at hello@gjcampbell.co.uk. All security vulnerabilities will be promptly addressed. You may view our full security policy [here](https://github.com/GrahamCampbell/Bounded-Cache/security/policy).
+If you discover a security vulnerability within this package, please send an email to security@tidelift.com. All security vulnerabilities will be promptly addressed. You may view our full security policy [here](https://github.com/GrahamCampbell/Bounded-Cache/security/policy).
 
 
 ## License
