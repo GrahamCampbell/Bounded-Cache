@@ -2,6 +2,11 @@ CHANGE LOG
 ==========
 
 
+## V1.1.1 (17/10/2021)
+
+* Provisional PHP 8.1 support
+
+
 ## V1.1 (15/07/2020)
 
 * Added `BoundedCacheInterface` exposing min/max lifetimes
