@@ -2,6 +2,11 @@ CHANGE LOG
 ==========
 
 
+## V1.1.3 (21/11/2021)
+
+* Updated package metadata
+
+
 ## V1.1.2 (17/10/2021)
 
 * Corrected docs
