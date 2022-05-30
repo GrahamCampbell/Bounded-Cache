@@ -2,6 +2,12 @@ CHANGE LOG
 ==========
 
 
+## V2.0 (30/05/2022)
+
+* Dropped PHP < 8.0
+* Support only `psr/simple-cache` v2 and v3
+
+
 ## V1.2 (30/05/2022)
 
 * Dropped PHP < 7.4

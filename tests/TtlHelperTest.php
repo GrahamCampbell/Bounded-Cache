@@ -27,12 +27,12 @@ class TtlHelperTest extends TestCase
     /**
      * @dataProvider provideTtlCases
      */
-    public function testComputeTtl($min, $max, $ttl, $expected)
+    public function testComputeTtl(int $min, int $max, null|int|DateInterval $ttl, int $expected): void
     {
         $this->assertSame($expected, TtlHelper::computeTtl($min, $max, $ttl));
     }
 
-    public function provideTtlCases()
+    public function provideTtlCases(): array
     {
         return [
             [5, 30, 123, 30],

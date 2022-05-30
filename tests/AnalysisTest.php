@@ -30,7 +30,7 @@ class AnalysisTest extends TestCase
      *
      * @return string[]
      */
-    protected function getPaths()
+    protected function getPaths(): array
     {
         return [
             realpath(__DIR__.'/../src'),
