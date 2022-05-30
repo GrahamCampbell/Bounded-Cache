@@ -2,10 +2,10 @@ CHANGE LOG
 ==========
 
 
-## V1.2 (UPCOMING)
+## V1.2 (30/05/2022)
 
 * Dropped PHP < 7.4
-* Support `psr/simple-cache` v2
+* Support both `psr/simple-cache` v1 and v2
 
 
 ## V1.1.3 (21/11/2021)
