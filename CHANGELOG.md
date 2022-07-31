@@ -2,7 +2,7 @@ CHANGE LOG
 ==========
 
 
-## V2.1 (UPCOMING)
+## V2.1 (31/07/2022)
 
 * Add PHP 8.2 support
 
