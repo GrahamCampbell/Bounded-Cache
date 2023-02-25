@@ -30,7 +30,7 @@ class BoundedCacheTest extends TestCase
 
     public function testCanConstruct(): void
     {
-        $this->assertInstanceOf(CacheInterface::class, new BoundedCache(Mockery::mock(CacheInterface::class), 5, 10));
+        self::assertInstanceOf(CacheInterface::class, new BoundedCache(Mockery::mock(CacheInterface::class), 5, 10));
     }
 
     public function testGet(): void
@@ -43,7 +43,7 @@ class BoundedCacheTest extends TestCase
 
         $c = new BoundedCache($m, 0, 123);
 
-        $this->assertSame('qwertyuiop', $c->get('123'));
+        self::assertSame('qwertyuiop', $c->get('123'));
     }
 
     public function testSet(): void
@@ -56,6 +56,6 @@ class BoundedCacheTest extends TestCase
 
         $c = new BoundedCache($m, 4, 123);
 
-        $this->assertTrue($c->set('123', 'abc'));
+        self::assertTrue($c->set('123', 'abc'));
     }
 }
