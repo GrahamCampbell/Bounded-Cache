@@ -2,6 +2,11 @@ CHANGE LOG
 ==========
 
 
+## V2.1.1 (25/02/2023)
+
+* Cleaned up tests
+
+
 ## V2.1 (31/07/2022)
 
 * Add PHP 8.2 support
