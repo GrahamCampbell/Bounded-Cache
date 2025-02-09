@@ -15,6 +15,7 @@ namespace GrahamCampbell\Tests\BoundedCache;
 
 use DateInterval;
 use GrahamCampbell\BoundedCache\TtlHelper;
+use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 
 /**
@@ -24,9 +25,7 @@ use PHPUnit\Framework\TestCase;
  */
 class TtlHelperTest extends TestCase
 {
-    /**
-     * @dataProvider provideTtlCases
-     */
+    #[DataProvider('provideTtlCases')]
     public function testComputeTtl(int $min, int $max, null|int|DateInterval $ttl, int $expected): void
     {
         self::assertSame($expected, TtlHelper::computeTtl($min, $max, $ttl));
