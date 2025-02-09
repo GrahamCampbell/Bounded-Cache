@@ -16,12 +16,12 @@ Bounded Cache was created by, and is maintained by [Graham Campbell](https://git
 
 ## Installation
 
-This version requires [PHP](https://www.php.net/) 8.0-8.4.
+This version requires [PHP](https://www.php.net/) 8.1-8.4.
 
 To get the latest version, simply require the project using [Composer](https://getcomposer.org/):
 
 ```bash
-$ composer require "graham-campbell/bounded-cache:^2.2"
+$ composer require "graham-campbell/bounded-cache:^3.0"
 ```
 
 
